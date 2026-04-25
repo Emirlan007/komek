@@ -8,5 +8,6 @@
     </head>
     <body>
         @include('components.header')
+        @include('components.nav')
     </body>
 </html>

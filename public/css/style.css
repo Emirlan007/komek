@@ -17,10 +17,10 @@ body {
 .header__container {
     max-width: 1240px;
     margin: 0 auto;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .header__logo {
@@ -58,10 +58,10 @@ body {
 }
 
 .header__socials {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
 
 .icon {
@@ -94,4 +94,57 @@ body {
     padding: 8px 16px;
     border: none;
     border-radius: 16px;
+}
+
+.nav {
+
+}
+
+.nav__container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.active {
+    border-bottom: 3px solid #FF0000;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #010101;
+    font-size: 15px;
+    display: block;
+    padding: 15px 0;
+}
+
+.nav__buttons {
+    display: flex;
+}
+
+.btn__login {
+    background: #E92B43;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 16px;
+    padding: 8px 16px;
+    margin-left: 32px;
+}
+
+.btn__review {
+    background: #E92B43;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 16px;
+    padding: 8px 16px;
+    margin-left: 32px;
 }

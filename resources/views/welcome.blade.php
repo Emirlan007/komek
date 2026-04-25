@@ -7,6 +7,6 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     </head>
     <body>
-    
+        @include('components.header')
     </body>
 </html>

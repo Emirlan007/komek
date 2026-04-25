@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,
+        sans-serif;
+}
+
+.header {
+    background-color: #123D4B;
+    padding: 23px 50px;
+}
+
+.header__container {
+    max-width: 1240px;
+    margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+}
+
+.header__logo {
+    width: 150px;
+}
+
+.header__adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__country {
+    font-size: 16px;
+    color: #fff;
+}
+
+.header__street {
+    font-size: 13px;
+    color: #A0AEB7;
+}
+
+.header__phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__number {
+    font-size: 16px;
+    color: #fff;
+}
+
+.header__cashier {
+    font-size: 13px;
+    color: #A0AEB7;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+    background: #A0AEB7;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.facebook {
+    padding: 6px 12px 4px;
+}
+
+.instagram {
+    padding: 7px 8px 5px
+}
+
+.youtube {
+    padding: 10px 8px 8px;
+}
+
+.vk {
+    padding: 11px 8px 8px;
+}
+
+.header__btn {
+    margin-left: 16px;
+    background: #E92B43;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+}

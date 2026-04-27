@@ -7,8 +7,11 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     </head>
     <body>
+        @include('components.hero')
         @include('components.header')
         @include('components.nav')
         @include('components.dates')
+        @include('components.card')
+        @include('components.footer')
     </body>
 </html>

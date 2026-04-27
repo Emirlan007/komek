@@ -14,10 +14,10 @@
                 <a href="#" class="dates__link">Понедельник, 11 сент.</a>
             </li>
             <li class="dates__item">
-                <a href="#" class="dates__link">Понедельник, 12 сент.</a>
+                <a href="#" class="dates__link">Вторник, 12 сент.</a>
             </li>
             <li class="dates__item">
-                <a href="#" class="dates__link">Понедельник, 13 сент.</a>
+                <a href="#" class="dates__link">Среда, 13 сент.</a>
             </li>
         </ul>
     </div>

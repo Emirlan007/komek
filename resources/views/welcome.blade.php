@@ -9,5 +9,6 @@
     <body>
         @include('components.header')
         @include('components.nav')
+        @include('components.dates')
     </body>
 </html>

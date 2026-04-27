@@ -96,10 +96,6 @@ body {
     border-radius: 16px;
 }
 
-.nav {
-
-}
-
 .nav__container {
     max-width: 1240px;
     margin: 0 auto;
@@ -147,4 +143,42 @@ body {
     border-radius: 16px;
     padding: 8px 16px;
     margin-left: 32px;
+}
+
+.dates {
+    background: #F2F2F5;
+}
+
+.dates__container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.dates__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 8px 0;
+}
+
+.dates__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    display: block;
+    padding: 15px 0;
+    background: #fff;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+.active__btn {
+    background: #E92B43;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 16px;
+    padding: 8px 16px;
 }
